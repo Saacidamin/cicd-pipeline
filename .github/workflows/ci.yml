@@ -23,4 +23,4 @@ jobs:
     - name: Tagging image
       run: docker tag cicd-pipeline:latest samin49/cicd-pipeline:latest
     - name: Push to Dockerhub
-      run: docker push samin49/cicd-pipeline:latest`
+      run: docker push samin49/cicd-pipeline:latest
